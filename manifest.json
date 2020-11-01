@@ -1,0 +1,16 @@
+  
+{
+  "short_name": "Video Meeting",
+  "name": "Video Meeting",
+  "start_url": "https://ayaan-codes.github.io/aco-meet/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "<INSERT LOGO HERE>",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
