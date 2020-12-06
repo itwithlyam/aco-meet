@@ -188,7 +188,7 @@ if (subdomain) {
 }
 var config = {
     hosts: {
-        domain: 'meet.jit.si',
+        domain: '',
 
         muc: 'conference.'+subdomain+'meet.jit.si', // FIXME: use XEP-0030
         focus: 'focus.meet.jit.si',
@@ -465,7 +465,7 @@ var interfaceConfig = {
     HIDE_INVITE_MORE_HEADER: false,
 
     INITIAL_TOOLBAR_TIMEOUT: 20000,
-    JITSI_WATERMARK_LINK: 'https://website.smb.company',
+    ACO_WATERMARK_LINK: 'https://website.smb.company',
 
     LANG_DETECTION: true, // Allow i18n to detect the system language
     LIVE_STREAMING_HELP_LINK: '', // Documentation reference for the live streaming feature.
@@ -739,7 +739,7 @@ typeof module === 'object'
               <path d="M9 16.172L19.594 5.578 21 6.984l-12 12-5.578-5.578L4.828 12z"></path>
             </svg>
           </div>
-          HD audio video
+          UHD audio video
         </div>
         <div class="welcome-card-line">
           <div class="jitsi-icon welcome-card-icon">
@@ -797,7 +797,7 @@ typeof module === 'object'
               </defs>
             </svg>
           </div>
-          <div class="welcome-card-small-title">8x8 Meet</div>
+          <div class="welcome-card-small-title">ACO Meet</div>
         </div>
         <div class="welcome-card-line">Put Meetings to Work. Free Trial.</div>
         <div class="welcome-card-line">
@@ -906,7 +906,7 @@ typeof module === 'object'
   <div class = "welcome-card-text">
       <div class="welcome-card-jaas-logo">
           <img class="logo-8x8" src="./images/welcome_page/8x8-logo.png" />
-          <span>Jitsi as a Service</span>
+          <span>ACO Meet</span>
       </div>
       <h3 class="welcome-card-large-title">Want even more from ACO Meet? Check out <b>ACO Meet +</b>.
       </h3>
