@@ -16,6 +16,14 @@
     <link rel="manifest" id="manifest-placeholder">
 
     <script>
+        let password = 'testword'
+        let passwordentry = prompt('What is the password to this meeting?')
+        if (!passwordentry === password) {
+          alert('Incorrect password.')
+          window.location.replace("https://ayaan-codes.github.io/meet/static/close3.html");
+        } else {
+          alert('Correct password.')
+        }
         // Dynamically generate the manifest location URL. It must be served from the document origin, and we may have
         // the base pointing to the CDN. This way we can generate a full URL which will bypass the base.
         document.querySelector('#manifest-placeholder').setAttribute('href', window.location.origin + '/manifest.json');
